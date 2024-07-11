@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Utility classes */
+@layer utilities {
+    .flex-center {
+        @apply flex justify-center items-center
+    }
+
+    .link {
+        @apply relative font-bold flex-center leading-5 cursor-pointer uppercase tracking-widest md:py-2 px-4 md:rounded-full overflow-hidden w-full border-b py-6 md:w-fit md:border-0 border-zinc-400 last:border-0 md:after:content-[''] md:after:w-full md:after:h-0 md:after:absolute md:after:bottom-0 md:after:left-0 md:after:bg-w md:after:mix-blend-difference md:after:transition-all md:after:duration-300 md:after:hover:h-full md:after:ease-out md:after:rounded-full md:after:hover:rounded-none
+    }
+
+    .h1 {
+        @apply text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]
+    }
+
+    .h2 {
+        @apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight
+    }
+
+    .h3 {
+        @apply text-[2rem] leading-normal md:text-[2.5rem]
+    }
+
+    .h4 {
+        @apply text-[2rem] leading-normal
+    }
+
+    .h5 {
+        @apply text-2xl leading-normal
+    }
+
+    .h6 {
+        @apply text-lg leading-8
+    }
+
+}
+
+* {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    font-family: "Rubik", sans-serif;
+    color: #FFE8DC;
+}
+
+/* ScrollBar Styling */
+::selection {
+    color: #111;
+    background: #ff9d00;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffe8dc37;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffe8dc;
+    border-radius: 5px;
+}
+
+/* Lenis Stylings */
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+    pointer-events: none;
+}
+
+.scroll-margin {
+    scroll-margin-block-start: 78px;
+}
+
+.clip-path {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+}
+
+.t-transparent {
+    color: transparent;
+}
