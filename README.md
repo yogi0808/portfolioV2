@@ -39,6 +39,6 @@ This is an animated portfolio website built using React, Next Js, GSAP, Lenis Sc
 
 ![skill](https://github.com/yogi0808/portfolioV2/assets/148646093/b99b9225-3219-4729-8ba5-60401a277732)
 
-![work](https://github.com/yogi0808/portfolioV2/assets/148646093/b00cd5bd-872e-49c5-ba66-a38c5f5058fb)
+![work](https://github.com/yogi0808/portfolioV2/assets/148646093/f871670e-f139-41ed-b563-616ebb86ae6f)
 
 ![footer](https://github.com/yogi0808/portfolioV2/assets/148646093/be339dbe-ee4e-4b54-b5fc-cb9f6c506536)

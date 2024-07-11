@@ -1,3 +1,5 @@
+import { CssSvg, ExpressSvg, GitSvg, HtmlSvg, JavaScriptSvg, MongoDB, NextJs, NodeSvg, ReactSvg, TailwindSvg } from "@/svgs/SkillsSvgs"
+
 // Navigation links
 export const navLinks = [
   {
@@ -90,6 +92,19 @@ export const works = [
       "HTML", "CSS", "JavaScript", "PHP", "MySQL"
     ],
   }
+]
+
+export const Skills = [
+  { id: "1", el: <HtmlSvg /> },
+  { id: "2", el: <CssSvg /> },
+  { id: "3", el: <JavaScriptSvg /> },
+  { id: "4", el: <ReactSvg /> },
+  { id: "5", el: <NodeSvg /> },
+  { id: "6", el: <ExpressSvg /> },
+  { id: "7", el: <MongoDB /> },
+  { id: "8", el: <NextJs /> },
+  { id: "9", el: <GitSvg /> },
+  { id: "10", el: <TailwindSvg /> }
 ]
 
 // Social Links with Links and custom ClassName's

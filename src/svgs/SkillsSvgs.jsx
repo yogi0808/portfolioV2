@@ -1,4 +1,4 @@
-const HtmlSvg = () => (
+export const HtmlSvg = () => (
   <svg
     fill="none"
     height="100%"
@@ -20,7 +20,7 @@ const HtmlSvg = () => (
   </svg>
 )
 
-const CssSvg = () => (
+export const CssSvg = () => (
   <svg
     fill="none"
     height="100%"
@@ -42,7 +42,7 @@ const CssSvg = () => (
   </svg>
 )
 
-const JavaScriptSvg = () => (
+export const JavaScriptSvg = () => (
   <svg
     fill="none"
     height="100%"
@@ -63,7 +63,7 @@ const JavaScriptSvg = () => (
   </svg>
 )
 
-const ReactSvg = () => (
+export const ReactSvg = () => (
   <svg
     height="100%"
     viewBox="175.7 78 490.6 436.9"
@@ -80,7 +80,7 @@ const ReactSvg = () => (
   </svg>
 )
 
-const NodeSvg = () => (
+export const NodeSvg = () => (
   <svg
     width="100%"
     height="100%"
@@ -98,7 +98,7 @@ const NodeSvg = () => (
   </svg>
 )
 
-const ExpressSvg = () => (
+export const ExpressSvg = () => (
   <svg
     width="100%"
     height="100%"
@@ -111,7 +111,7 @@ const ExpressSvg = () => (
   </svg>
 )
 
-const MongoDB = () => (
+export const MongoDB = () => (
   <svg
     width="100%"
     height="100%"
@@ -157,7 +157,7 @@ const MongoDB = () => (
   </svg>
 )
 
-const NextJs = () => (
+export const NextJs = () => (
   <svg
     width="100%"
     height="100%"
@@ -175,7 +175,7 @@ const NextJs = () => (
   </svg>
 )
 
-const GitSvg = () => (
+export const GitSvg = () => (
   <svg
     width="100%"
     height="100%"
@@ -188,7 +188,7 @@ const GitSvg = () => (
   </svg>
 )
 
-const TailwindSvg = () => (
+export const TailwindSvg = () => (
   <svg
     height="100%"
     viewBox=".15 .13 799.7 479.69"
@@ -200,16 +200,3 @@ const TailwindSvg = () => (
     />
   </svg>
 )
-
-export default [
-  <HtmlSvg />,
-  <CssSvg />,
-  <JavaScriptSvg />,
-  <ReactSvg />,
-  <NodeSvg />,
-  <ExpressSvg />,
-  <MongoDB />,
-  <NextJs />,
-  <GitSvg />,
-  <TailwindSvg />,
-]

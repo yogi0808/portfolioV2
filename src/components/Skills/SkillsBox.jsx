@@ -1,6 +1,6 @@
 "use client"
 
-import SkillsSvgs from "@/svgs/SkillsSvgs"
+import { Skills } from "@/constants"
 import { motion } from "framer-motion"
 import React, { useRef } from "react"
 
@@ -14,18 +14,18 @@ const SkillsBox = () => {
       <p className=" opacity-55 absolute text-nowrap top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
         You can Drag it around
       </p>
-      {SkillsSvgs.map((svg, ind) => {
+      {Skills.map((skill) => {
         return (
           // adding Drag animation using Framer Motion
           <motion.div
             className={`h-[50px] sm:h-16 cursor-grab`}
-            key={ind}
+            key={skill.id}
             drag
             dragConstraints={wrapper}
             dragElastic={0.5}
             whileDrag={{ scale: 1.3 }}
           >
-            {svg}
+            {skill.el}
           </motion.div>
         )
       })}
