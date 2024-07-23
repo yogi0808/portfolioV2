@@ -50,15 +50,6 @@ export const works = [
   },
   {
     id: "2",
-    img: "/works/workHoverTracker.webp",
-    title: "Work Hours Tracker",
-    description: "Developed a website to track daily work hours, including start and end times, with records saved in local storage. Utilizing React and TailwindCSS, the site provides a streamlined interface for efficient time tracking and record keeping.",
-    techStack: [
-      "React", "Tailwind CSS"
-    ],
-    link: "https://yogi0808.github.io/Work_Hours_Tracker"
-  }, {
-    id: "3",
     img: "/works/BlogWebsite.webp",
     title: "Blog Website",
     description: "Developed a full-stack blog application using the MERN stack (React, Node.js, Express, MongoDB) with JWT authentication.  This interactive platform allows users to create, edit, and delete blog posts. Administrators can manage user accounts through a dedicated dashboard.",
@@ -67,33 +58,18 @@ export const works = [
     ],
     link: "https://github.com/yogi0808/MERN-Blog-Website.git"
   }, {
-    id: "4",
-    img: "/works/todo_app/main_image_for_todo.webp",
-    title: "To-Do App",
-    description: "Created a feature-rich to-do app with local storage for efficient task management, leveraging Flutter and Dart. The app offers users a seamless experience, allowing them to easily add, track, and manage tasks with the convenience of local data persistence.",
+    id: "3",
+    img: "/works/workHoverTracker.webp",
+    title: "Work Hours Tracker",
+    description: "Developed a website to track daily work hours, including start and end times, with records saved in local storage. Utilizing React and TailwindCSS, the site provides a streamlined interface for efficient time tracking and record keeping.",
     techStack: [
-      "Flutter", "Dart",
+      "React", "Tailwind CSS"
     ],
-    link: "https://github.com/yogi0808/ToDoApp.git"
-  }, {
-    id: "5",
-    img: "/works/luxury_app/lp1.webp",
-    title: "Luxury Application",
-    description: "Created a robust e-commerce application with a seamless user experience and real-time database integration, leveraging Flutter, Dart, and Firebase. The app offers smooth navigation, efficient product management, and real-time updates for an enhanced shopping experience.",
-    techStack: [
-      "Flutter", "Dart", "Firebase"
-    ],
-  }, {
-    id: "6",
-    img: "/works/luxury photo & frames/cover.webp",
-    title: "Luxury Photos & frames",
-    description: "Developed a dynamic e-commerce platform for selling photos and frames, featuring a user-friendly interface and comprehensive admin panel for efficient management. The platform ensures seamless navigation and efficient product handling, enhancing both user experience and administrative control.",
-    techStack: [
-      "HTML", "CSS", "JavaScript", "PHP", "MySQL"
-    ],
+    link: "https://yogi0808.github.io/Work_Hours_Tracker"
   }
 ]
 
+// Skills SVG's list
 export const Skills = [
   { id: "1", el: <HtmlSvg /> },
   { id: "2", el: <CssSvg /> },
