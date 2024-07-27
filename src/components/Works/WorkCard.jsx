@@ -7,7 +7,7 @@ const WorkCard = ({ work }) => {
       style={{ top: 106 }}
       className="w-full flex-center sticky"
     >
-      <div className="md:w-[90%] lg:w-[80%] w-full h-[70%] mx-auto rounded-2xl p-3 md:p-8 flex flex-wrap-reverse md:gap-0 gap-4 border bg-noise bg-[#111]">
+      <div className="md:w-[90%] lg:w-[80%] w-full h-[70%] mx-auto rounded-2xl p-3 md:p-8 flex flex-wrap-reverse md:gap-0 gap-4 border-2 bg-noise bg-[#111]">
         <div className="md:w-1/2 md:p-3 flex flex-col justify-between gap-2">
           <h1 className="h5 sm:h4 md:h3 font-semibold opacity-70">
             {work.title}

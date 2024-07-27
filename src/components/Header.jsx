@@ -44,9 +44,8 @@ const Header = () => {
         opacity: 1,
       })
       .from(navRef.children, {
-        y: -20,
-        opacity: 0,
-        stagger: 0.1,
+        y: -40,
+        stagger: 0.15,
       })
       .from(bgObjectRef.children, {
         y: -100,
@@ -56,7 +55,7 @@ const Header = () => {
   })
   return (
     <div className="w-screen fixed top-0 left-0 z-[999] overflow-hidden">
-      <div className="px-4 md:px-12 border-b border-zinc-300 rounded-lg backdrop-blur-md">
+      <div className="px-4 md:px-12 backdrop-blur-md">
         <div className="flex justify-between items-center flex-wrap md:flex-nowrap">
           <div className="w-full md:w-fit grid md:flex grid-cols-2 items-center justify-between">
             <Link

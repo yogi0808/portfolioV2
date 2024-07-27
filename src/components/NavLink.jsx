@@ -6,7 +6,7 @@ const NavLink = ({ link, onClick }) => {
     <div onClick={onClick}>
       <Link
         href={link.url}
-        className={`link`}
+        className={`link clip-path`}
       >
         {link.title}
       </Link>
