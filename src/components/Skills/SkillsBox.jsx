@@ -1,8 +1,10 @@
 "use client"
 
-import { Skills } from "@/constants"
-import { motion } from "framer-motion"
 import React, { useRef } from "react"
+import { motion } from "framer-motion"
+
+// Files
+import { Skills } from "@/constants"
 
 const SkillsBox = () => {
   const wrapper = useRef()

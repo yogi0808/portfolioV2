@@ -8,6 +8,7 @@ import { useGSAP } from "@gsap/react"
 // Files
 import SplitText from "@/utils/splitText"
 import { heroText } from "@/constants"
+import { heroTl } from "@/utils/helper"
 
 const HeroTexts = () => {
   let text1Ref = useRef()
@@ -16,13 +17,12 @@ const HeroTexts = () => {
 
   // GSAP animation for hero texts
   useGSAP(() => {
-    const tl = gsap.timeline()
-    tl.from(text1Ref.children, {
-      delay: 3,
-      y: 60,
-      opacity: 0,
-      stagger: 0.02,
-    })
+    heroTl
+      .from(text1Ref.children, {
+        y: 60,
+        opacity: 0,
+        stagger: 0.02,
+      })
       .from(nameRef.children, {
         y: 60,
         opacity: 0,

@@ -2,8 +2,8 @@ import React from "react"
 
 // Files
 import Heading from "../Heading"
-import SkillsBox from "./SkillsBox"
 import Section from "../Section"
+import SkillsBox from "./SkillsBox"
 
 const Skills = () => {
   return (

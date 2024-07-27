@@ -1,6 +1,5 @@
 "use client"
 
-import gsap from "gsap"
 import Link from "next/link"
 import { useGSAP } from "@gsap/react"
 import React, { useRef, useState } from "react"
@@ -11,6 +10,7 @@ import Logo from "@/svgs/Logo"
 import NavLink from "./NavLink"
 import MenuSvg from "@/svgs/MenuSvg"
 import { navLinks } from "@/constants"
+import { heroTl } from "@/utils/helper"
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -38,24 +38,20 @@ const Header = () => {
 
   // GSAP animation for Links and background Boxes
   useGSAP(() => {
-    const tl = gsap.timeline()
-
-    tl.from(logoRef.current, {
-      y: -30,
-      opacity: 0,
-      duration: 0.2,
-    })
+    heroTl
+      .to(logoRef.current, {
+        y: 0,
+        opacity: 1,
+      })
       .from(navRef.children, {
         y: -20,
         opacity: 0,
-        stagger: 0.2,
-        duration: 0.8,
+        stagger: 0.1,
       })
       .from(bgObjectRef.children, {
         y: -100,
         opacity: 0,
-        stagger: 0.2,
-        duration: 0.7,
+        stagger: 0.1,
       })
   })
   return (
@@ -66,7 +62,7 @@ const Header = () => {
             <Link
               href="#"
               ref={logoRef}
-              className="h-20 w-fit inline-block"
+              className="h-20 w-fit inline-block -translate-y-40 opacity-0"
             >
               <Logo />
             </Link>

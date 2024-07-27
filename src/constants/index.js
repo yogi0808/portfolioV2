@@ -40,16 +40,26 @@ export const aboutText = `Hi, I'm Yogesh Gojiya, a dedicated web developer with 
 export const works = [
   {
     id: "1",
+    img: "/works/Full-Stack.png",
+    title: "Full-Stack E-Commerce Website",
+    description: "This is a full-stack e-commerce application built using the MERN stack (React, Node.js, Express, MongoDB) with additional technologies like JWT for authentication, bcryptjs for hashing passwords, Redux for State Management, and Firebase for storage.",
+    techStack: [
+      "React", "Node js", "Express js", "MongoDB", "Redux", "Tailwind CSS", "Firebase"
+    ],
+    link: "https://github.com/yogi0808/e-commerce-website.git"
+  },
+  {
+    id: "2",
     img: "/works/ChatApp.webp",
     title: "Real-time Chat App",
     description: "Built a full-fledged chat app using React and Firebase. Users can add friends, search for contacts, and experience real-time communication with chat history. This project highlights my proficiency in building interactive web apps, integrating user authentication, and managing real-time data flow.",
     techStack: [
       "React", "Tailwind CSS", "Firebase"
     ],
-    link: "https://github.com/yogi0808/Web-Chat-App"
+    link: "https://github.com/yogi0808/Web-Chat-App.git"
   },
   {
-    id: "2",
+    id: "3",
     img: "/works/BlogWebsite.webp",
     title: "Blog Website",
     description: "Developed a full-stack blog application using the MERN stack (React, Node.js, Express, MongoDB) with JWT authentication.  This interactive platform allows users to create, edit, and delete blog posts. Administrators can manage user accounts through a dedicated dashboard.",
@@ -58,7 +68,7 @@ export const works = [
     ],
     link: "https://github.com/yogi0808/MERN-Blog-Website.git"
   }, {
-    id: "3",
+    id: "4",
     img: "/works/workHoverTracker.webp",
     title: "Work Hours Tracker",
     description: "Developed a website to track daily work hours, including start and end times, with records saved in local storage. Utilizing React and TailwindCSS, the site provides a streamlined interface for efficient time tracking and record keeping.",

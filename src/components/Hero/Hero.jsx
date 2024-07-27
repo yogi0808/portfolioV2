@@ -2,8 +2,8 @@ import React from "react"
 
 // Files
 import Model from "./Model"
-import HeroTexts from "./HeroTexts"
 import Section from "../Section"
+import HeroTexts from "./HeroTexts"
 
 const Hero = () => {
   return (

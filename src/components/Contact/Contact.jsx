@@ -1,9 +1,9 @@
 import React from "react"
 
 // Files
+import Section from "../Section"
 import EmailBtn from "./EmailBtn"
 import RotatingLinks from "./RotatingLinks"
-import Section from "../Section"
 
 const Contact = () => {
   return (

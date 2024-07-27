@@ -1,11 +1,11 @@
 import React from "react"
 
 // Files
-import { aboutText } from "@/constants"
-import Heading from "../Heading"
-import Paragraph from "../Paragraph"
 import MyImage from "./MyImage"
+import Heading from "../Heading"
 import Section from "../Section"
+import Paragraph from "../Paragraph"
+import { aboutText } from "@/constants"
 
 const AboutMe = () => {
   return (

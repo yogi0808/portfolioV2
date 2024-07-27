@@ -2,9 +2,9 @@ import React from "react"
 
 // Files
 import Heading from "../Heading"
+import Section from "../Section"
 import WorkCard from "./WorkCard"
 import { works } from "@/constants"
-import Section from "../Section"
 
 const Works = () => {
   return (

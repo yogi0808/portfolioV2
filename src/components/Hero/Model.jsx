@@ -1,8 +1,8 @@
 "use client"
 
-import gsap from "gsap"
 import Image from "next/image"
 import { useGSAP } from "@gsap/react"
+import { heroTl } from "@/utils/helper"
 import React, { Suspense, useRef } from "react"
 const Spline = React.lazy(() => import("@splinetool/react-spline/next"))
 
@@ -11,8 +11,7 @@ const Model = () => {
 
   // GSAP animation for spline 3D model
   useGSAP(() => {
-    gsap.from(splineRef.current, {
-      delay: 5.5,
+    heroTl.from(splineRef.current, {
       opacity: 0,
       scale: 0.5,
     })
