@@ -5,24 +5,36 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Yogesh",
-  description: "Web Developer Portfolio.",
+  description: "Discover the creative portfolio of [Your Name], featuring dynamic web designs and animations using React, GSAP, Locomotive Scroll, Spline, and Framer Motion. Explore a showcase of innovative projects and compelling visual experiences.",
+  url: "https://portfolio-v2-ten-tan.vercel.app/",
+  image: "/header.png"
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta property="og:image" content="https://portfolio-v2-po2oj0lui-yogeshs-projects-05081680.vercel.app/header.png" />
-      <meta property="twitter:image" content="https://portfolio-v2-po2oj0lui-yogeshs-projects-05081680.vercel.app/header.png" />
-
-      <meta property="og:site_name" content="Yogesh Portfolio Website" />
-
+      {/* Meta Data Description's  */}
+      <meta name="description" content={metadata.description} />
       <meta property="og:description" content={metadata.description} />
-      <meta property="twitter:description" content={metadata.description} />
+      <meta name="twitter:description" content={metadata.description} />
 
+      {/* Meta Data URL's  */}
+      <meta property="og:url" content={metadata.url} />
+      <meta property="twitter:url" content={metadata.url} />
+
+      {/* Meta Data Images */}
+      <meta property="og:image" content={metadata.image} />
+      <meta name="twitter:image" content={metadata.image} />
+
+      {/* Meta Data Title's */}
       <meta property="og:title" content={metadata.title} />
-      <meta property="twitter:title" content={metadata.title} />
+      <meta name="twitter:title" content={metadata.title} />
 
-      <body className={inter.className}>{children}</body>
+      {/* Meta Data Domain */}
+      <meta property="twitter:domain" content="portfolio-v2-ten-tan.vercel.app" />
+
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
     </html>
   );
 }
