@@ -7,7 +7,7 @@ export const metadata = {
   title: "Yogesh",
   description: "Discover the creative portfolio of [Your Name], featuring dynamic web designs and animations using React, GSAP, Locomotive Scroll, Spline, and Framer Motion. Explore a showcase of innovative projects and compelling visual experiences.",
   url: "https://portfolio-v2-ten-tan.vercel.app/",
-  image: "/header.png"
+  image: "https://portfolio-v2-ten-tan.vercel.app/header.png"
 };
 
 export default function RootLayout({ children }) {
@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
       <meta property="twitter:domain" content="portfolio-v2-ten-tan.vercel.app" />
 
       <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Yogesh Portfolio" />
       <meta name="twitter:card" content="summary_large_image" />
 
       <body className={inter.className}>{children}</body>
