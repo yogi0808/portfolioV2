@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import PerspectiveText from "../PerspectiveText"
 
 const WorkCard = ({ work }) => {
   return (
@@ -12,7 +13,7 @@ const WorkCard = ({ work }) => {
           <h1 className="h5 sm:h4 md:h3 font-semibold opacity-70">
             {work.title}
           </h1>
-          <p className="opacity-40 line-clamp-5">{work.description}</p>
+          <p className="opacity-50 line-clamp-5">{work.description}</p>
 
           <div className="w-full flex flex-wrap">
             {work.techStack.map((item, idx) => (
@@ -28,9 +29,9 @@ const WorkCard = ({ work }) => {
             <a
               target="blank"
               href={work.link}
-              className="bg-w text-black text-lg font-bold transition-all duration-300 hover:opacity-100 rounded-full w-fit px-4 py-2 opacity-70"
+              className="bg-w text-black text-lg font-bold transition-all duration-300 hover:opacity-100 rounded-full w-fit opacity-70"
             >
-              View Repo
+              <PerspectiveText classis={"px-4 py-2"}>View Repo</PerspectiveText>
             </a>
           ) : (
             ""
@@ -42,7 +43,6 @@ const WorkCard = ({ work }) => {
               src={work.img}
               alt={work.title}
               fill
-              className="opacity-70"
             />
           </div>
         </div>
