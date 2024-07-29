@@ -39,7 +39,7 @@ const RotatingLinks = () => {
   })
 
   return (
-    <div className="w-80 h-80 flex relative items-center justify-center rounded-full border border-w opacity-60">
+    <div className="size-[280px] sm:size-80 flex relative items-center justify-center rounded-full border border-w opacity-60 overflow-hidden">
       <div
         className="h-full absolute w-full rounded-full"
         onMouseEnter={() => tl.pause()}
@@ -61,7 +61,7 @@ const RotatingLinks = () => {
           </a>
         ))}
       </div>
-      <div className="w-44 h-44 flex items-center justify-center rounded-full border border-w opacity-60">
+      <div className="size-32 sm:size-44 flex items-center justify-center rounded-full border border-w opacity-60">
         <div className="w-28 opacity-60">
           <Logo />
         </div>

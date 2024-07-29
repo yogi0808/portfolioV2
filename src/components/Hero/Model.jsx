@@ -28,7 +28,7 @@ const Model = () => {
             alt="Loading..."
             width={150}
             height={150}
-            className=" opacity-10"
+            className="opacity-10"
           />
         }
       >

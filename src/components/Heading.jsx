@@ -17,8 +17,8 @@ const Heading = ({ title, classes }) => {
     gsap.from(titleRef.children, {
       scrollTrigger: {
         trigger: titleRef,
-        start: "top 60%",
-        end: "400% 60%",
+        start: "top 50%",
+        end: "400% 50%",
         scrub: 0.3,
       },
       y: 48,

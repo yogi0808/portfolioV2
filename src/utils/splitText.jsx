@@ -7,7 +7,7 @@ const SplitText = ({ text, word }) => {
     return wordArr.map((item, idx) => (
       <span
         key={idx}
-        className="flex"
+        className="flex text-w"
       >
         <span>{item}</span>
         <div className="size-1" />
@@ -23,7 +23,12 @@ const SplitText = ({ text, word }) => {
           className="size-3"
         />
       ) : (
-        <span key={idx}>{item}</span>
+        <span
+          key={idx}
+          className="text-w"
+        >
+          {item}
+        </span>
       )
     )
   }

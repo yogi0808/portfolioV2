@@ -13,11 +13,11 @@ const MyImage = () => {
     gsap.from(imgRef.current, {
       scrollTrigger: {
         trigger: imgRef.current,
-        start: "-10% 100%",
-        end: "140% bottom",
+        start: "top bottom",
+        end: "60% bottom",
         scrub: 2,
       },
-      y: 100,
+      y: 200,
       ease: "linear",
     })
   })
@@ -25,7 +25,7 @@ const MyImage = () => {
   return (
     <Image
       ref={imgRef}
-      className="rounded-lg opacity-75 -translate-y-[100px]"
+      className="rounded-lg opacity-75"
       src="/me.webp"
       alt="Me"
       width={300}

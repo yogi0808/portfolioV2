@@ -10,10 +10,6 @@
         @apply flex justify-center items-center
     }
 
-    .link {
-        @apply relative font-bold flex-center leading-5 cursor-pointer uppercase tracking-widest md:py-2 px-4 md:rounded-full overflow-hidden w-full border-b py-6 md:w-fit md:border-0 border-zinc-400 last:border-0 md:after:content-[''] md:after:w-full md:after:h-0 md:after:absolute md:after:bottom-0 md:after:left-0 md:after:bg-w md:after:mix-blend-difference md:after:transition-all md:after:duration-300 md:after:hover:h-full md:after:ease-out md:after:rounded-full md:after:hover:rounded-none
-    }
-
     .h1 {
         @apply text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]
     }
@@ -44,7 +40,7 @@
     color-scheme: dark;
     scroll-behavior: smooth;
     font-family: "Rubik", sans-serif;
-    color: #FFE8DC;
+    border-color: #ffe8dc;
 }
 
 /* ScrollBar Styling */
@@ -102,4 +98,42 @@ html.lenis body {
 
 .t-transparent {
     color: transparent;
+}
+
+.perspective {
+    perspective: 120px;
+    perspective-origin: top;
+}
+
+
+
+
+.perspective-text {
+    transform-style: preserve-3d;
+
+    p {
+
+        &:nth-of-type(2) {
+            transform: rotateX(-90deg) translateY(50%);
+            opacity: 0;
+        }
+    }
+
+    &:hover {
+        transform: rotateX(90deg);
+
+        p {
+            &:nth-of-type(1) {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+
+            &:nth-of-type(2) {
+                opacity: 1;
+            }
+
+        }
+
+    }
+
 }

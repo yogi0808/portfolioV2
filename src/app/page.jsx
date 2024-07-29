@@ -13,7 +13,7 @@ import Contact from "@/components/Contact/Contact"
 const App = () => {
   return (
     <Lenis>
-      <div className="bg-noise">
+      <main className="bg-noise">
         <Header />
         <Hero />
         <Skills />
@@ -21,7 +21,7 @@ const App = () => {
         <Works />
         <Contact />
         <Footer />
-      </div>
+      </main>
     </Lenis>
   )
 }

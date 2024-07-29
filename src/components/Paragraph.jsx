@@ -15,11 +15,11 @@ const Paragraph = ({ text }) => {
     gsap.from(pRef.children, {
       scrollTrigger: {
         trigger: pRef,
-        start: "top 70%",
-        end: "120% bottom",
+        start: "top 60%",
+        end: "150% bottom",
         scrub: 0.3,
       },
-      opacity: 0.1,
+      opacity: 0.3,
       stagger: 1,
     })
   })
@@ -27,7 +27,7 @@ const Paragraph = ({ text }) => {
   return (
     <h1
       ref={(el) => (pRef = el)}
-      className="leading-8 opacity-40 flex flex-wrap mt-4"
+      className="leading-8 opacity-50 flex flex-wrap mt-4"
     >
       {/* Custom Component for Split Text's */}
       <SplitText
