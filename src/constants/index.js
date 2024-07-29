@@ -1,5 +1,13 @@
 import { CssSvg, ExpressSvg, GitSvg, HtmlSvg, JavaScriptSvg, MongoDB, NextJs, NodeSvg, ReactSvg, TailwindSvg } from "@/svgs/SkillsSvgs"
 
+// Meta Data
+export const metadata = {
+  title: "Yogesh",
+  description: "Discover the creative portfolio of Yogesh, featuring dynamic web designs and animations using React, GSAP, Locomotive Scroll, Spline, and Framer Motion. Explore a showcase of innovative projects and compelling visual experiences.",
+  url: "https://portfolio-v2-ten-tan.vercel.app/",
+  image: "https://portfolio-v2-ten-tan.vercel.app/header.png"
+};
+
 // Navigation links
 export const navLinks = [
   {

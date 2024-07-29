@@ -1,14 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { metadata } from "@/constants";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: "Yogesh",
-  description: "Discover the creative portfolio of [Your Name], featuring dynamic web designs and animations using React, GSAP, Locomotive Scroll, Spline, and Framer Motion. Explore a showcase of innovative projects and compelling visual experiences.",
-  url: "https://portfolio-v2-ten-tan.vercel.app/",
-  image: "https://portfolio-v2-ten-tan.vercel.app/header.png"
-};
 
 export default function RootLayout({ children }) {
   return (
