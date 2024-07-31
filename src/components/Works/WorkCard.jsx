@@ -25,17 +25,32 @@ const WorkCard = ({ work }) => {
               </span>
             ))}
           </div>
-          {work.link ? (
-            <a
-              target="blank"
-              href={work.link}
-              className="bg-w text-black text-lg font-bold transition-all duration-300 hover:opacity-100 rounded-full w-fit opacity-70"
-            >
-              <PerspectiveText classis={"px-4 py-2"}>View Repo</PerspectiveText>
-            </a>
-          ) : (
-            ""
-          )}
+          <div className="flex gap-2">
+            {work.link ? (
+              <a
+                target="blank"
+                href={work.link}
+                className="bg-w text-black text-lg font-bold transition-all duration-300 hover:opacity-100 rounded-full w-fit opacity-70"
+              >
+                <PerspectiveText classis={"px-4 py-2"}>
+                  Visit Repo
+                </PerspectiveText>
+              </a>
+            ) : (
+              ""
+            )}
+            {work.live ? (
+              <a
+                target="blank"
+                href={work.live}
+                className="bg-w text-black text-lg font-bold transition-all duration-300 hover:opacity-100 rounded-full w-fit opacity-70"
+              >
+                <PerspectiveText classis={"px-4 py-2"}>Visit</PerspectiveText>
+              </a>
+            ) : (
+              ""
+            )}
+          </div>
         </div>
         <div className="w-full h-full md:my-auto md:w-1/2">
           <div className="relative mx-auto aspect-video max-md:max-w-[360px] rounded-md overflow-hidden">

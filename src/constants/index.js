@@ -52,7 +52,8 @@ export const works = [
     title: "Image Format Converter",
     description: "A web application built with React, Context API, and Tailwind CSS for converting images between various formats including PNG, JPG, JPEG, WEBP, and AVIF. Users can upload images and quickly convert them to their desired format.",
     techStack: ["React", "Tailwind CSS"],
-    link: "https://github.com/yogi0808/Image-Format-Converter.git"
+    link: "https://github.com/yogi0808/Image-Format-Converter.git",
+    live: "https://pixamorph.vercel.app/"
   },
   {
     id: "2",
@@ -91,7 +92,8 @@ export const works = [
     techStack: [
       "React", "Tailwind CSS"
     ],
-    link: "https://yogi0808.github.io/Work_Hours_Tracker"
+    link: "https://yogi0808.github.io/Work_Hours_Tracker",
+    live: "https://yogi0808.github.io/Work_Hours_Tracker/"
   }
 ]
 
