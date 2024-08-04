@@ -49,10 +49,10 @@ export const works = [
   {
     id: "1",
     img: "/works/imageFormatConverter.png",
-    title: "Image Format Converter",
-    description: "A web application built with React, Context API, and Tailwind CSS for converting images between various formats including PNG, JPG, JPEG, WEBP, and AVIF. Users can upload images and quickly convert them to their desired format.",
+    title: "PixaMorph",
+    description: "Transform your images with PixaMorph! Resize and convert to multiple Format. Enjoy top-quality, secure local processing for privacy. Best image editor for flexible, high-quality photo editing.",
     techStack: ["React", "Tailwind CSS"],
-    link: "https://github.com/yogi0808/Image-Format-Converter.git",
+    link: "https://github.com/yogi0808/PixaMorph.git",
     live: "https://pixamorph.vercel.app/"
   },
   {
