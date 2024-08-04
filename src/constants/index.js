@@ -51,7 +51,7 @@ export const works = [
     img: "/works/imageFormatConverter.png",
     title: "PixaMorph",
     description: "Transform your images with PixaMorph! Resize and convert to multiple Format. Enjoy top-quality, secure local processing for privacy. Best image editor for flexible, high-quality photo editing.",
-    techStack: ["React", "Tailwind CSS"],
+    techStack: ["React", "Redux", "Tailwind CSS"],
     link: "https://github.com/yogi0808/PixaMorph.git",
     live: "https://pixamorph.vercel.app/"
   },
