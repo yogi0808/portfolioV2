@@ -33,7 +33,7 @@ const EmailBtn = () => {
       <div className="flex gap-2 flex-col">
         <h5 className="h5 font-medium tracking-wider opacity-60">CV</h5>
         <a
-          href="https://drive.google.com/file/d/1qxj8acgJss_j6vCc_zape_5jVdsvvJac/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1NDjnlc7PbVZ4xAqtv9UnOkfmPFaTVHv2/view?usp=sharing"
           target="blanc"
           className="sm:text-2xl leading-10 rounded-xl bg-w text-black transition-all duration-300 text-lg font-bold hover:opacity-100 w-fit opacity-70"
         >
