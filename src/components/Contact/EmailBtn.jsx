@@ -39,7 +39,7 @@ const EmailBtn = () => {
           className="sm:text-2xl leading-10 rounded-xl bg-w text-black transition-all duration-300 text-lg font-bold hover:opacity-100 w-fit opacity-70"
         >
           <PerspectiveText classis={"sm:px-4 sm:py-2 px-4 py-2"}>
-            Download CV
+            View CV
           </PerspectiveText>
         </a>
       </div>
