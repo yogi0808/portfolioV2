@@ -2,16 +2,17 @@
 
 import React, { useState } from "react"
 import PerspectiveText from "../PerspectiveText"
+import { Email } from "@/constants"
 
 const EmailBtn = () => {
-  const [email, setEmail] = useState("gojiyayogesh08@gmail.com")
+  const [copy, setCopy] = useState("Click to copy")
 
   // Handling Copy text on Click
   const handelClick = () => {
-    navigator.clipboard.writeText(email)
-    setEmail("Email Copied")
+    navigator.clipboard.writeText(Email)
+    setCopy("Copied")
     setTimeout(() => {
-      setEmail("gojiyayogesh08@gmail.com")
+      setCopy("Click to copy")
     }, 5000)
   }
 
@@ -19,14 +20,14 @@ const EmailBtn = () => {
     <div className="lg:w-2/3 w-full flex sm:items-start justify-center flex-col md:pl-8 gap-12">
       <div className="flex gap-2 flex-col">
         <h5 className="h5 font-medium tracking-wider opacity-60">
-          Get in touch <span className="h6">(Click to copy)</span>
+          Get in touch <span className="h6">({copy})</span>
         </h5>
         <button
           className="sm:text-4xl leading-10  rounded-xl bg-w text-black transition-all duration-300 text-lg font-bold hover:opacity-100 w-fit opacity-70"
           onClick={handelClick}
         >
           <PerspectiveText classis={"sm:px-8 sm:py-4 px-4 py-2"}>
-            {email}
+            {Email}
           </PerspectiveText>
         </button>
       </div>

@@ -8,6 +8,10 @@ export const metadata = {
   image: "https://portfolio-v2-ten-tan.vercel.app/header.png"
 };
 
+// Email
+
+export const Email = "gojiyayogesh08@gmail.com"
+
 // Navigation links
 export const navLinks = [
   {
