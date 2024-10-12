@@ -56,8 +56,7 @@ export const works = [
     title: "PixaMorph",
     description: "Transform your images with PixaMorph! Resize and convert to multiple Format. Enjoy top-quality, secure local processing for privacy. Best image editor for flexible, high-quality photo editing.",
     techStack: ["React", "Redux", "Tailwind CSS"],
-    link: "https://github.com/yogi0808/PixaMorph.git",
-    live: "https://pixamorph.vercel.app/"
+    repo: "PixaMorph"
   },
   {
     id: "2",
@@ -67,7 +66,7 @@ export const works = [
     techStack: [
       "React", "Node js", "Express js", "MongoDB", "Redux", "Tailwind CSS", "Firebase"
     ],
-    link: "https://github.com/yogi0808/e-commerce-website.git"
+    repo: "e-commerce-website"
   },
   {
     id: "3",
@@ -77,7 +76,7 @@ export const works = [
     techStack: [
       "React", "Tailwind CSS", "Firebase"
     ],
-    link: "https://github.com/yogi0808/Web-Chat-App.git"
+    repo: "Web-Chat-App"
   },
   {
     id: "4",
@@ -87,7 +86,7 @@ export const works = [
     techStack: [
       "React", "Node.js", "Express", "MongoDB", "Redux"
     ],
-    link: "https://github.com/yogi0808/MERN-Blog-Website.git"
+    repo: "MERN-Blog-Website"
   }, {
     id: "5",
     img: "/works/workHoverTracker.webp",
@@ -96,8 +95,7 @@ export const works = [
     techStack: [
       "React", "Tailwind CSS"
     ],
-    link: "https://yogi0808.github.io/Work_Hours_Tracker",
-    live: "https://yogi0808.github.io/Work_Hours_Tracker/"
+    repo: "Work_Hours_Tracker"
   }
 ]
 

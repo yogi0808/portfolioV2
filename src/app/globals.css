@@ -43,6 +43,10 @@
     border-color: #ffe8dc;
 }
 
+body {
+    @apply bg-noise;
+}
+
 /* ScrollBar Styling */
 ::selection {
     color: #111;
@@ -52,6 +56,7 @@
 /* width */
 ::-webkit-scrollbar {
     width: 7px;
+    max-height: 7px;
     border-radius: 5px;
 }
 

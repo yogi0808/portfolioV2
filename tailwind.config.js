@@ -13,8 +13,8 @@ module.exports = {
       },
       colors: {
         "w": "#FFE8DC"
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

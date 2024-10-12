@@ -1,0 +1,55 @@
+.markdown-content h1,
+.markdown-content h2 {
+    @apply text-w/70 border-b pb-3 border-b-w/50;
+}
+
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+    @apply text-w/70;
+}
+
+.markdown-content p {
+    @apply text-w/50;
+}
+
+.markdown-content strong {
+    @apply text-w/70;
+}
+
+.markdown-content li {
+    @apply text-w/50;
+}
+
+.markdown-content a {
+    @apply text-w/50;
+}
+
+.markdown-content ol {
+    @apply text-w/50;
+}
+
+.markdown-content ul>li::marker {
+    @apply text-w/50;
+}
+
+.markdown-content ol>li::marker {
+    @apply text-w/70;
+}
+
+.markdown-content code:not(pre code) {
+    @apply text-black bg-w/50 px-[2px] py-[2px] rounded;
+}
+
+.markdown-content pre {
+    @apply bg-transparent border-2 border-w/70 overflow-x-scroll;
+}
+
+.markdown-content pre {
+    @apply text-w/70;
+}
+
+.markdown-content img {
+    @apply max-w-[500px] mx-auto;
+}

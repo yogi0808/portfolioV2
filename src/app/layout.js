@@ -31,7 +31,9 @@ export default function RootLayout({ children }) {
       <meta property="og:site_name" content="Yogesh Portfolio" />
       <meta name="twitter:card" content="summary_large_image" />
 
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   );
 }
