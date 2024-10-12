@@ -2,8 +2,6 @@
 import Image from "next/image"
 import { useState, useEffect } from "react"
 import ReactMarkdown from "react-markdown"
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
-import { oneDark } from "react-syntax-highlighter/dist/cjs/styles/prism"
 import "./markdown.css"
 import Footer from "@/components/Footer"
 import Lenis from "@/components/Lenis"
