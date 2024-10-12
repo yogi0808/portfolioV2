@@ -51,5 +51,5 @@
 }
 
 .markdown-content img {
-    @apply max-w-[500px] mx-auto;
+    @apply max-w-[500px] mx-auto max-h-[80vh];
 }

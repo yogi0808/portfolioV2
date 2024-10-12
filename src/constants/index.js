@@ -52,6 +52,14 @@ export const aboutText = `Hi, I'm Yogesh Gojiya, a dedicated web developer with 
 export const works = [
   {
     id: "1",
+    img: "/works/chat flow.png",
+    title: "Chat Flow",
+    description: "Chat Flow is a mobile chat application built using React Native with Expo and Firebase Real-Time Database. The app allows users to log in or register, search for friends, and start real-time conversations with them. The user interface is inspired by the clean and minimalistic design of ChatGPT.",
+    techStack: ["React Native", "Expo", "Firebase"],
+    repo: "ChatFlow"
+  },
+  {
+    id: "2",
     img: "/works/imageFormatConverter.png",
     title: "PixaMorph",
     description: "Transform your images with PixaMorph! Resize and convert to multiple Format. Enjoy top-quality, secure local processing for privacy. Best image editor for flexible, high-quality photo editing.",
@@ -59,7 +67,7 @@ export const works = [
     repo: "PixaMorph"
   },
   {
-    id: "2",
+    id: "3",
     img: "/works/Full-Stack.png",
     title: "Full-Stack E-Commerce Website",
     description: "This is a full-stack e-commerce application built using the MERN stack (React, Node.js, Express, MongoDB) with additional technologies like JWT for authentication, bcryptjs for hashing passwords, Redux for State Management, and Firebase for storage.",
@@ -69,7 +77,7 @@ export const works = [
     repo: "e-commerce-website"
   },
   {
-    id: "3",
+    id: "4",
     img: "/works/ChatApp.webp",
     title: "Real-time Chat App",
     description: "Built a full-fledged chat app using React and Firebase. Users can add friends, search for contacts, and experience real-time communication with chat history. This project highlights my proficiency in building interactive web apps, integrating user authentication, and managing real-time data flow.",
@@ -79,7 +87,7 @@ export const works = [
     repo: "Web-Chat-App"
   },
   {
-    id: "4",
+    id: "5",
     img: "/works/BlogWebsite.webp",
     title: "Blog Website",
     description: "Developed a full-stack blog application using the MERN stack (React, Node.js, Express, MongoDB) with JWT authentication.  This interactive platform allows users to create, edit, and delete blog posts. Administrators can manage user accounts through a dedicated dashboard.",
@@ -87,15 +95,6 @@ export const works = [
       "React", "Node.js", "Express", "MongoDB", "Redux"
     ],
     repo: "MERN-Blog-Website"
-  }, {
-    id: "5",
-    img: "/works/workHoverTracker.webp",
-    title: "Work Hours Tracker",
-    description: "Developed a website to track daily work hours, including start and end times, with records saved in local storage. Utilizing React and TailwindCSS, the site provides a streamlined interface for efficient time tracking and record keeping.",
-    techStack: [
-      "React", "Tailwind CSS"
-    ],
-    repo: "Work_Hours_Tracker"
   }
 ]
 
