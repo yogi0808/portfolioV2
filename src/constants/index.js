@@ -31,8 +31,8 @@ export const navLinks = [
   },
   {
     id: "4",
-    title: "works",
-    url: "#works",
+    title: "projects",
+    url: "#projects",
   },
   {
     id: "5",
@@ -49,7 +49,7 @@ export const aboutText = `Hi, I'm Yogesh Gojiya, a dedicated web developer with 
 
 
 // Projects details and images
-export const works = [
+export const projects = [
   {
     id: "1",
     img: "/works/chat flow.png",

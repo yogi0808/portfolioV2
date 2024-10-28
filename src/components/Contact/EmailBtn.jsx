@@ -23,12 +23,10 @@ const EmailBtn = () => {
           Get in touch <span className="h6">({copy})</span>
         </h5>
         <button
-          className="sm:text-4xl leading-10  rounded-xl bg-w text-black transition-all duration-300 text-lg font-bold hover:opacity-100 w-fit opacity-70"
+          className="sm:text-2xl leading-10  rounded-xl bg-w text-black transition-all duration-300 text-lg font-bold hover:opacity-100 w-fit opacity-70"
           onClick={handelClick}
         >
-          <PerspectiveText classis={"sm:px-8 sm:py-4 px-4 py-2"}>
-            {Email}
-          </PerspectiveText>
+          <PerspectiveText classis={"px-4 py-2"}>{Email}</PerspectiveText>
         </button>
       </div>
       <div className="flex gap-2 flex-col">
@@ -38,9 +36,7 @@ const EmailBtn = () => {
           target="blanc"
           className="sm:text-2xl leading-10 rounded-xl bg-w text-black transition-all duration-300 text-lg font-bold hover:opacity-100 w-fit opacity-70"
         >
-          <PerspectiveText classis={"sm:px-4 sm:py-2 px-4 py-2"}>
-            View CV
-          </PerspectiveText>
+          <PerspectiveText classis={"px-4 py-2"}>View CV</PerspectiveText>
         </a>
       </div>
     </div>

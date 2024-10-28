@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 
-const WorkCard = ({ work }) => {
+const ProjectCard = ({ work }) => {
   return (
     <div
       style={{ top: 106 }}
@@ -45,4 +45,4 @@ const WorkCard = ({ work }) => {
   )
 }
 
-export default WorkCard
+export default ProjectCard

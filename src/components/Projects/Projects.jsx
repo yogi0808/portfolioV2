@@ -3,25 +3,25 @@ import React from "react"
 // Files
 import Heading from "../Heading"
 import Section from "../Section"
-import WorkCard from "./WorkCard"
-import { works } from "@/constants"
+import ProjectCard from "./ProjectCard"
+import { projects } from "@/constants"
 
-const Works = () => {
+const Projects = () => {
   return (
     <Section
-      id="works"
+      id="projects"
       classis="sm:px-8 px-2 w-full scroll-margin"
     >
       <div className="w-full flex-center mb-8">
         {/* Custom animated component for Heading */}
         <Heading
-          title="Works"
+          title="Projects"
           classes="w-fit"
         />
       </div>
       <div className="w-full flex flex-col gap-24">
-        {works.map((work, idx) => (
-          <WorkCard
+        {projects.map((work, idx) => (
+          <ProjectCard
             key={idx}
             work={work}
           />
@@ -31,4 +31,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default Projects
